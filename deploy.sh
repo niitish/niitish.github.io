@@ -15,9 +15,8 @@ Disallow: /" > robots.txt
 
 
 git init
-git checkout main
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:niitish/niitish.github.io.git main:pages
+git push -f git@github.com:niitish/niitish.github.io.git main:gh-pages
 
 cd -
