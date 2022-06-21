@@ -1,0 +1,28 @@
+.header {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: #e7e7e7 0px 1px 2px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  width: 100%;
+
+  & h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  & nav {
+    margin: 0;
+
+    & button {
+      font: inherit;
+      font-size: 1.25rem;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+    }
+  }
+}
